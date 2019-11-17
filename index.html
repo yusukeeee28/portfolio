@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YUSUKE's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/yusuke.css">
+
+</head>
+
+<body>
+    <div class="bodyy">
+        <header>
+            <div class="menuyu">
+                <ul class="menubar">
+                    <li>
+                        <a href="./index.html">
+                            <p>YUSUKE Portfolio</p>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a>
+                            <p>Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <p>Skills</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <p>Works</p>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </header>
+        <div id="container"></div>
+        <div class="window1">
+            <div class="welcome">
+                Welcome My Portfolio !
+            </div>
+            <div class="enter">
+                <a id="enterbutton">Enter</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/bubbly-bg.js"></script>
+    <script>
+        bubbly({
+            colorStart: "#ff1",
+            colorStop: "#fff",
+            blur: 7,
+
+            bubbles: 220,
+            compose: "source-over",
+            shadowColor: "#5DB08B",
+            radiusFunc: () => Math.random() * 15,
+            bubbleFunc: () => `hsla(40, 50%, 80%, ${Math.random() * 0.25})`,
+        });
+    </script>
+    <canvas style="position:fixed;z-index:-1;left:0;top:0;min-width:100vw;min-height:100vh;" width="1920"
+        height="994"></canvas>
+    <script src="./js/button.js"></script>
+</body>
+
+</html>

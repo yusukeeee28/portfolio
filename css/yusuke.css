@@ -1,0 +1,432 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyy {
+
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+
+}
+body{
+    background-color: rgb(145, 145, 145);
+}
+
+/* body {} */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
+
+#container {
+    padding-top: 114px;
+}
+
+.menuyu {
+
+    background-color: rgb(65, 65, 65);
+    margin: 0px;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.menubar {
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.menubar li {
+    display: inline-block;
+    margin: 10px 40px;
+    font-size: 30px;
+}
+
+.menubar li:first-child {
+    float: left;
+
+}
+
+.menubar li:nth-child(n+2) {
+    float: right;
+}
+
+.menubar a {
+    color: rgb(255, 255, 255);
+    text-decoration-line: none
+}
+
+.window1 {
+
+    margin: 0px;
+    padding: 5px;
+
+
+}
+
+.welcome {
+    font-size: 60px;
+    text-align: center;
+    line-height: 400px;
+    font-weight: 800;
+}
+
+.bodyy2 {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(145, 145, 145);
+    /* width: 100vw; */
+    /* height: 150vh; */
+}
+
+.enter {
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    transition: .9s;
+    transform: scale(1);
+
+}
+
+.bodyfadeout {
+    opacity: 0;
+}
+
+.enter:hover {
+
+    transition: .9s;
+    transform: scale(1.1);
+}
+
+#enterbutton {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border: solid black;
+    border-radius: 10px;
+    /* background-color: rgb(110, 110, 110); */
+}
+
+.animeyu {
+    transition: all 1s ease-in;
+    margin-top: -110vh;
+}
+
+#tab1b,
+#tab2b,
+#tab3b {
+    text-align: center;
+    padding: 0px;
+
+}
+#tab2b{
+    
+    /* width: 100vw; */
+}
+#tab2b,
+#tab3b {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+#tab3{
+    /* height: 100vh; */
+    /* background-color: rgb(145, 145, 145); */
+    /* width: 100vw; */
+}
+.tab2 h1 {
+    text-align: center;
+}
+
+.picture {
+    text-align: center;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+.picture img {
+    width: 400px;
+    height: auto;
+    border: solid darkorange;
+    border-radius: 100px;
+    border-width: 4px;
+}
+
+.info {
+    text-align: center;
+
+}
+
+.info2 {
+    margin: 2px auto;
+    font-size: 28px;
+    text-align: left;
+}
+
+.twitter {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+    padding: 2px;
+}
+
+.twitter:hover {
+    padding: 2px;
+    transition: .3s;
+    border-bottom: solid rgb(248, 223, 0);
+}
+
+td {
+    padding: 5px;
+}
+
+
+
+.abar1:hover,
+.abar2:hover,
+.abar3:hover {
+    transition: .3s;
+    color: tomato;
+}
+
+.skill {
+    margin: 0px auto;
+    width: 20%;
+    padding: 20px;
+    border-bottom: solid darkorange;
+}
+.graphbox{
+    margin: 0 auto;
+    width: 60%;
+    
+    
+}
+.graph-ani{
+    animation: bar-animation 1 2s;
+}
+@keyframes bar-animation{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}
+.graph, .graph li, .graph dl,
+.graph dt, .graph dd, .graph span {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.graph dl{
+    display:flex;
+    justify-content: space-between;
+}
+.graph dt{
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+.graph dd {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 10px 0;
+  text-align: center;
+}
+.graph dd span {
+  display: block;
+  overflow: visible;
+  white-space: nowrap;
+}
+.graph-a dd span {
+  background-color: rgb(128, 128, 128);
+  border: solid 2px black;
+  color: white;
+  max-width: 50%;
+}
+
+.graph-b dd span {
+  background-color: #212526c5;
+  border: solid 2px black;
+  color: white;
+  max-width: 30%;
+}
+
+.graph-c dd span {
+  background-color: #373D40;
+  border: solid 2px black;
+  color: white;
+  max-width: 50%;
+}
+.graph-d dd span {
+  background-color: rgb(129, 133, 145);
+  border: solid 2px black;
+  color: white;
+  max-width: 30%;
+}
+.graph-e dd span {
+  background-color: rgb(64, 83, 83);
+  border: solid 2px black;
+  color: white;
+  max-width: 50%;
+}
+.graph-f dd span {
+  background-color: #464646;
+  border: solid 2px black;
+  color: white;
+  max-width: 50%;
+}
+.graph-g dd span {
+  background-color: #3b3b30;
+  border: solid 2px black;
+  color: white;
+  max-width: 35%;
+}
+.graph-h dd span {
+  background-color: #464646;
+  border: solid 2px black;
+  color: white;
+  max-width: 20%;
+}
+.graph-i dd span {
+  background-color: #666633;
+  border: solid 2px black;
+  max-width: 40%;
+  color: white;
+}
+
+
+.works {
+    /* text-align: center; */
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.square {
+    width: 20%;
+
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.square-in1,
+.square-in2,
+.square-in3 {
+    padding: 10px;
+    width: 100%;
+
+}
+
+
+#work1 {
+    display: inline-block;
+    width: 70%;
+    padding-top: 70%;
+    /* border: solid; */
+    background: url(../img/1024.png) no-repeat;
+    border-radius: 10px;
+    background-size: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 6px 6px 6px 2px black;
+    transition: 0.5s;
+}
+
+#work1:hover {
+    width: 70%;
+    padding-top: 70%;
+    transition: 0.3s;
+    /* border: solid; */
+    background: url(../img/maruichi.png) no-repeat;
+    background-size: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: scale(1.1);
+}
+
+#work2 {
+    display: inline-block;
+    width: 70%;
+    padding-top: 70%;
+    /* border: solid; */
+    background: url(../img/IMG_0843.JPG) no-repeat;
+    border-radius: 10px;
+    background-size: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 6px 6px 6px 2px black;
+    transition: 0.5s;
+}
+
+#work2:hover {
+    width: 70%;
+    padding-top: 70%;
+    transition: 0.3s;
+    /* border: solid; */
+    background: url(../img/number.png) no-repeat;
+    background-size: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: scale(1.1);
+}
+
+#work3 {
+    display: inline-block;
+    width: 70%;
+    padding-top: 70%;
+    /* border: solid; */
+    background: url(../img/portfolio.png) no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    
+    box-shadow: 6px 6px 6px 2px black;
+    transition:0.5s;
+    
+}
+#work3:hover{
+    transform: scale(1.1);
+}
+
+.worksname {
+    display: inline-block;
+    width: 70%;
+    font-size: 28px;
+    /* border-bottom:solid 2px; */
+    margin: 0 0 10px;
+    padding: 0;
+
+}
+
+#explanation {
+
+    width: 50%;
+    height: auto;
+
+    background-color: white;
+    display: inline-block;
+    text-align: left;
+}
+
+#num-ex,
+#maru-ex,
+#port-ex {
+    display: none;
+    padding: 20px;
+    margin: 0px;
+    border: solid;
+    /* background-color: chocolate; */
+}
